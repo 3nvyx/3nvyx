@@ -1,13 +1,13 @@
 # Hey, I'm Eric 👋
 
-- 🌐 **Website:** [ericnguyenn.me](https://www.ericnguyenn.me/) — currently being rebuilt from scratch, pardon the dust
+- 🌐 **Website:** [ericnguyenn.me](https://www.ericnguyenn.me/) — write-ups and demos of everything below
 - 💼 **LinkedIn:** [eric-nguyennn](https://www.linkedin.com/in/eric-nguyennn/)
 - 📬 **Email:** envn001@gmail.com
 - 📍 Irvine, California
 
 ## What I'm up to
 
-- 🔨 Reworking my personal site in Next.js 16 + Tailwind v4
+- 🧾 Built [**Luyten**](https://github.com/3nvyx/luyten) at Cal Hacks: AI agents that close a startup's books, with the database enforcing every approval
 - 🎓 Founded **Iota Xi**, OCC's first computer science honor society
 - ⚡ Built the sign-up and organizer platform for [OCC Hacks 2026](https://occhacks.com) — 1,400+ visitors and 160+ applications in 7 weeks
 
@@ -15,6 +15,7 @@
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [**Luyten**](https://github.com/3nvyx/luyten) | AI agents close a startup's month-end books, but they can only propose. A Red Team on Grok and Gemini critiques every proposal, an Advisor agent rules, and the CFO confirms anything material. The database enforces the gate, not prompts. [Live demo](https://3nvyx.github.io/luyten/), no keys needed. Cal Hacks 2026. | SvelteKit, TypeScript, SpacetimeDB, Claude Agent SDK, Grok, Gemini |
 | [**SLAP!**](https://github.com/3nvyx/slap) | A device you slap on a lecturer's desk. Live captions for the whole room in ~120 ms, then the lecture becomes notes, flashcards, and a study plan. OCC Hacks 2026. | ESP32-S3, Hono, WebSockets, React Router, Deepgram, Neon |
 | [**Nyx**](https://github.com/3nvyx/nyx) | An autonomous white-hat agent that scans websites and produces developer-ready vulnerability reports. Runs nmap, nuclei, and nikto to find CVEs, exposed services, and misconfigurations, with real-time agent updates streamed to the UI and Discord. PantherHacks 2026 at Chapman. | Next.js, TypeScript, OpenClaw, Pusher, Discord webhooks |
 | **Honors eligibility checker** | Offline desktop app that checks transcripts against 148 requirements for 17 honor societies, replacing manual review of 300+ applications a semester. | Python, PySide6, Beautiful Soup, MS Access |
@@ -25,8 +26,8 @@
 ## Technical Skills
 
 **Languages:** TypeScript, JavaScript, Python, C++, SQL, HTML/CSS  
-**Frontend:** React, Next.js, React Router, Tailwind CSS, shadcn/ui  
-**Backend & Data:** Node.js, Next.js, Hono, WebSockets, PostgreSQL, Supabase, Neon  
+**Frontend:** React, Next.js, SvelteKit, React Router, Tailwind CSS, shadcn/ui  
+**Backend & Data:** Node.js, Next.js, Hono, WebSockets, PostgreSQL, Supabase, Neon, SpacetimeDB  
 **Hardware & Tools:** ESP32-S3, Arduino, Git, Docker, Vercel, PostHog
 
 ---
